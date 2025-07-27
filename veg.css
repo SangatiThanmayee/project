@@ -23,3 +23,52 @@
     margin-top: 15px;
     margin-left: 1200px;
 }
+.image img {
+    height: 300px;
+    width: 100%;
+}
+
+.image {
+    background-image:linear-gradient(rgba(0,0,0,0.6)) ,url("./assets/images/header_image.1dc0f346d407fc577d16.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    height: 100px;
+    position: relative;
+}
+
+.image img {
+    height: 700px;
+}
+
+.search input {
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(107, 105, 105);
+    background-color: white;
+    padding-left: 20px;
+}
+
+.search i {
+    color: white;
+}
+
+.search i:hover {
+    background-color: white;
+    color: rgb(255, 136, 0);
+}
+
+.search i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 136, 0);
+}
