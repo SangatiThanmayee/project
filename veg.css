@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    background-color: rgb(255, 136, 0);
+    padding-left: 50px;
+    position: fixed;
+    width: 95.5%;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo p {
+    color: white;
+    font-weight: bold;
+}
+
+.header .hamlogo {
+    margin-top: 15px;
+    margin-left: 1200px;
+}
