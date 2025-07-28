@@ -72,3 +72,72 @@
     border-radius: 50px;
     background-color: rgb(255, 136, 0);
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.imagesearch {
+    position: relative;
+}
+
+.searchpara {
+    position: absolute;
+    left: 600px;
+    top: 90px;
+}
+
+.para p,
+h2 {
+    color: white;
+}
+
+.search input {
+    margin-left: 50px;
+}
+
+.para p {
+    margin-left: 40px;
+}
+
+.catlist {
+    height: 600px;
+}
+
+
+ .vegetarian {
+    border: 2px solid rgb(255, 136, 0);
+    height: 180px;
+    width: fit-content;
+    padding: 16px;
+    margin: 20px;
+} 
+.vegetarian p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ word-spacing: 2px;
+
+}
+
+.categories {
+    /* margin-left: px; */
+    display: inline-block;
+    text-align: left;
+}
+.underline {
+    width: 70px;
+    height: 4px;
+    margin-left: 30px;
+    background-color: rgb(255, 136, 0);
+}
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #111;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
