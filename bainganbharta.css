@@ -1,0 +1,130 @@
+.header {
+
+    background-color: rgb(255, 136, 0);
+    padding-left: 50px;
+    /* position: fixed;
+    width: 95.5%;
+    top: 0;
+    z-index: 999; */
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 5PX;
+}
+
+.categories {
+    display: inline-block;
+    text-align: left;
+    margin-left: 75px;
+}
+
+.underline {
+    width: 45px;
+    height: 4px;
+    margin-left: 75px;
+    background-color: rgb(255, 136, 0);
+
+}
+
+.mealunderline {
+    margin-top: 60px;
+}
+
+.details {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    height: 800px;
+    width: 90%;
+    margin-left: 75px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(95, 94, 94, 0.1);
+
+}
+
+.image img {
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.para .underline {
+    width: 700px;
+    height: 2px;
+    background-color: rgb(255, 136, 0);
+    margin-left: 0px;
+}
+
+.catmenu {
+    display: flex;
+    gap: 10px;
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.tags p {
+    border: 1px solid rgb(255, 136, 0);
+    color: rgb(255, 136, 0);
+    height: 20px;
+    width: 65px;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    gap: 40px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+}
+
+.number p {
+    border: 1px solid white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: rgb(58, 145, 116);
+}
+
+.num1,
+.num2,
+.num3 {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+.number p{
+    margin-right: 6px;
+}
+.menu p{
+font-size: 20px;
+}
+.numbers{
+    border: 1px solid  rgb(255, 136, 0);
+    background-color: rgb(255, 136, 0);
+    padding: 20px;
+    height: 250px;
+    width: 660px;
+  
+}
