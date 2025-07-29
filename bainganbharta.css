@@ -1,11 +1,114 @@
+.headers {
+    display: flex;
+    background-color: rgb(255, 136, 0);
+    padding-left: 50px;
+    position: fixed;
+    width: 95.5%;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo p {
+    color: white;
+    font-weight: bold;
+}
+
+.header .hamlogo {
+    margin-top: 15px;
+    margin-left: 1200px;
+}
+
+.image img {
+    height: 300px;
+    width: 100%;
+}
+
+.image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("./assets/images/header_image.1dc0f346d407fc577d16.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    height: 100px;
+    position: relative;
+}
+
+.image img {
+    height: 700px;
+}
+
+.search input {
+    height: 40px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    color: rgb(107, 105, 105);
+    background-color: white;
+    padding-left: 20px;
+}
+
+.search i {
+    color: white;
+}
+
+.search i:hover {
+    background-color: white;
+    color: rgb(255, 136, 0);
+}
+
+.search i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: rgb(255, 136, 0);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.imagesearch {
+    position: relative;
+}
+
+.searchpara {
+    position: absolute;
+    left: 600px;
+    top: 90px;
+}
+
+.para p,
+h2 {
+    color: white;
+}
+
+.search input {
+    margin-left: 50px;
+}
+
+.para p {
+    margin-left: 40px;
+}
+
+
 .header {
 
     background-color: rgb(255, 136, 0);
     padding-left: 50px;
-    /* position: fixed;
-    width: 95.5%;
-    top: 0;
-    z-index: 999; */
+    margin-top: 15px;
 }
 
 .home {
@@ -44,8 +147,8 @@
 }
 
 .image img {
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 450px;
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -126,5 +229,20 @@ font-size: 20px;
     padding: 20px;
     height: 250px;
     width: 660px;
-  
 }
+.p ,.i ,.r ,.y{
+    display: flex;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    margin: 0%;
+    padding: 0%; */
+}
+/* .measures{
+display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    margin: 0%;
+    padding: 0%;
+} */
