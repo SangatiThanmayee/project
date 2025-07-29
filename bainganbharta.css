@@ -19,7 +19,7 @@
     font-weight: bold;
 }
 
-.header .hamlogo {
+.headers .hamlogo {
     margin-top: 15px;
     margin-left: 1200px;
 }
@@ -103,7 +103,6 @@ h2 {
     margin-left: 40px;
 }
 
-
 .header {
 
     background-color: rgb(255, 136, 0);
@@ -146,7 +145,7 @@ h2 {
 
 }
 
-.image img {
+.images img {
     height: 500px;
     width: 450px;
     margin-top: 30px;
@@ -197,7 +196,7 @@ h2 {
 }
 
 .number p {
-    border: 1px solid white ;
+    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,36 +212,42 @@ h2 {
 .num3 {
     display: grid;
     grid-template-columns: repeat(3, 200px);
-    gap: 10px;
-    margin: 0%;
-    padding: 0%;
 }
-.number p{
+
+.number p {
     margin-right: 6px;
 }
-.menu p{
-font-size: 20px;
+
+.menu p {
+    font-size: 20px;
 }
-.numbers{
-    border: 1px solid  rgb(255, 136, 0);
+
+.numbers {
+    border: 1px solid rgb(255, 136, 0);
     background-color: rgb(255, 136, 0);
-    padding: 20px;
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
     height: 250px;
     width: 660px;
+     
 }
-.p ,.i ,.r ,.y{
+
+ /* .p,
+.i,
+.r,
+.y {
     display: flex;
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(3, 200px);
-    gap: 10px;
-    margin: 0%;
-    padding: 0%; */
 }
-/* .measures{
-display: grid;
-    grid-template-columns: repeat(3, 200px);
-    gap: 10px;
-    margin: 0%;
-    padding: 0%;
+
+.measure {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    border: 1px solid black;
+    height: 250px;
+    width: 900px;
 } */
+.measure {
+    display: flex;
+}
