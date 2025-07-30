@@ -137,12 +137,12 @@ h2 {
 .mealunderline {
     margin-top: 60px;
 }
-.meain-details{
+.main-details{
      /* display: flex; */
     gap: 40px;
     background-color:whitesmoke;
     border: 1px solid whitesmoke ;
-    height: 900px;
+    height: 1800px;
     width: 90%;
     margin-left: 75px;
     margin-top: 20px;
@@ -234,10 +234,13 @@ h2 {
 }
 
 
-
+h6 p{
+    margin-left: 30px;
+    font-size: 16px;
+}
 
 .measure {
-    border: 1px solid black;
+    border: 1px solid rgba(95, 94, 94, 0.1);
     width: 87%;
 padding: 20px;
     align-items: center;
@@ -255,3 +258,86 @@ padding: 20px;
 .vegan i{
 color: rgb(255, 136, 0);
 }
+.vegan{
+    margin-left: 30px;
+}
+.vegan span{
+    margin-left: 10px;
+}
+.catlist {
+    margin: 0;
+    height: 650px;
+}
+
+.categories {
+    margin-left: 70px;
+    display: inline-block;
+    text-align: left;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #111;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.underline {
+    width: 70px;
+    height: 4px;
+    margin-left: 100px;
+    background-color: rgb(255, 136, 0);
+}
+
+.list img {
+    padding: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+.list {
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    width: 90%;
+    gap: 30px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.listimage img:hover {
+    transform: scale(0.8);
+}
+
+.list p {
+    border: 1px solid rgb(255, 136, 0);
+    border-radius: 5px;
+    width: fit-content;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    text-align: center;
+    padding: 4px 10px;
+}
+
+.listimage {
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.listimage img {
+    height: auto;
+}
+
+.food {
+    position: absolute;
+    top: -6px;
+    right: 6px;
+    font-size: small;
+}
+
