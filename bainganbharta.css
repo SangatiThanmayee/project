@@ -28,7 +28,9 @@
     height: 300px;
     width: 100%;
 }
-
+.body{
+    background-color: #f5f5f5;
+}
 .image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url("./assets/images/header_image.1dc0f346d407fc577d16.jpg");
     background-size: cover;
@@ -138,10 +140,9 @@ h2 {
     margin-top: 60px;
 }
 .main-details{
-     /* display: flex; */
     gap: 40px;
-    background-color:whitesmoke;
-    border: 1px solid whitesmoke ;
+    background-color:white;
+    border: 1px solid white ;
     height: 1800px;
     width: 90%;
     margin-left: 75px;
@@ -151,8 +152,6 @@ h2 {
 .details {
     display: flex;
     gap: 40px;
-   
-    border: 1px solid whitesmoke ;
     height: fit-content;
     width: 90%;
     margin-left: 75px;
